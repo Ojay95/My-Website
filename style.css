@@ -1,0 +1,186 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: 0;
+}
+
+#main-header {
+    background-color: red;
+    color: white;
+}
+
+#navbar {
+    background-color: darkgray;
+    color: white;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 100px;
+}
+
+#navbar li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#showcase {
+    background-image: url("./image/showcase.jpg");
+    background-position: center right;
+    min-height: 500px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+@media (max-width: 600px) {
+    #main {
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
+
+hr.solid {
+    border: 3px solid;
+    color: red;
+    width: 50px;
+}
+
+#service .container {
+    text-align: center;
+}
+
+#service {
+    margin: 40px 40px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
+
+hr.about-solid {
+    border: 3px solid;
+    color: red;
+    width: 50px;
+    align-content: stretch;
+    margin: 0;
+}
+
+#block {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact {
+    padding: 60px;
+}
+
+.contact {
+    text-align: center;
+}
+
+#contact.form-group {
+    padding-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    padding: 8px;
+    width: 100%;
+}
+
+#contact textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+#contact input [type="submit"] {
+    background-color: #333;
+    color: white;
+    padding-inline-start: 10px 15px;
+    border: none;
+}
+
+.button [type="submit"] {
+    background-color: #000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.testimonial-head {
+    text-align: center;
+}
